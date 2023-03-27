@@ -1,0 +1,42 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/public/js/relatorio.js" defer></script>
+    <title>PUCPASS</title>
+  </head>
+  
+  <body>
+    
+    <img src="/public/img/a.png" width="150">
+
+    
+    <form onsubmit="buscaBilhete()">
+      <h1>Consulta uso Bilhete</h1>
+        <input type="text" name="pesquisa" id="pesquisa" placeholder="Informe o código do bilhete" autofocus\>
+        <button type="submit">Relatorio de Uso</button>
+        </form>
+      
+    <div id="resultados"    name="resultados">
+        <p id="codigo" 	    name="codigo" 		  class="oculto"></p>
+        <p id="datagerado"  name="datagerado"  	class="oculto"></p>
+        <p id="tipo"        name="tipo"  	      class="oculto"></p>
+        <p id="datarecarga" name="datarecarga"  class="oculto"></p>
+        <p id="utiliza"     name="utiliza"      class="oculto"></p>
+        <p id="expira"      name="expira"       class="oculto"></p>
+        <p id="mensagem"    name="mensagem">
+          Aguardando que seja informado o Bilhete   </p>
+      </div> 
+      
+      <h2 name= "Lista de Utilizações" class="oculto"></h2>
+      <ul id="Bilhetes">
+      </ul>
+      
+          
+    
+    </body>
+</html>

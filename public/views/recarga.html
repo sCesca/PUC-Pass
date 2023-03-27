@@ -1,0 +1,88 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/public/js/recarga.js" defer></script>
+    <title>PUCPASS</title>
+</head>
+
+<body>
+
+    <a href="/"><img src="/public/img/a.png" width="150"></a>
+
+    <svg class="circulo" viewBox="0 0 20 10" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="myGradient">
+                <stop offset="3%" stop-color="#246e91" />
+                <stop offset="90%" stop-color="#002352" />
+            </linearGradient>
+        </defs>
+
+        <circle cx="15" cy="5" r="4" fill="none" stroke="url(#myGradient)" />
+    </svg>
+
+    <svg class="circulo1" viewBox="0 0 20 10" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="myGradient1">
+                <stop offset="40%" stop-color="#002352" />
+                <stop offset="90%" stop-color="#246e91" />
+            </linearGradient>
+        </defs>
+
+        <circle cx="0" cy="0" r="4" fill="none" stroke="url(#myGradient1)" />
+    </svg>
+
+    <form class="form-recargas">
+
+        <label for="number-code"></label>
+        <label for="number-code"><input class="input-recargas" type="text" id="number-code" placeholder="DIGITE SEU ID:"></label>
+       
+        <div class="recargas">
+            <div class="unico">
+                <h3>Bilhete Único R$ 5,00</h3>
+                <p>Você pode utilizar o mesmo bilhete em quantos transportes quiser, por um
+                    período de 40 minutos. </p><br>
+
+                    <input class="botao-recarga" id="botao-unico-recarga" type="button" value="Recarregar">
+                    
+                    
+            </div>
+
+            <div class="duplo">
+                <h3>Bilhete Duplo R$ 10,00</h3>
+                <p>Para cada período de utilização do Bilhete duplo o usuário poderá utilizar o mesmo bilhete
+                    em quantos transportes quiser, por um período de 40 minutos.</p>
+
+
+                    <input class="botao-recarga" id="botao-duplo-recarga" type="button" value="RECARREGAR">
+            </div>
+
+            <div class="semanal">
+                <h3>Bilhete Semanal R$ 35,00</h3>
+                <p> utilizar o transporte público quantas vezes quiser durante o período de 7 dias, contados a partir da
+                    primeira
+                    utilização do bilhete. </p>
+
+
+                    <input class="botao-recarga" id="botao-semanal-recarga" type="button" value="RECARREGAR">
+            </div>
+
+            <div class="mensal">
+                <h3>Bilhete Mensal R$ 140,00</h3>
+                <p>utilizar o transporte público quantas vezes quiser durante o período de 30 dias, contados a partir da
+                    primeira utilização do bilhete. </p>
+
+                    <input class="botao-recarga" id="botao-mensal-recarga" type="button" value="RECARREGAR">
+            </div>
+        </div>
+
+    </form>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+body {
+    background-color: #002352;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+
+}
+
+.inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texthome {
+    position: absolute;
+    width: 900px;
+    font-size: 45px;
+}
+
+.menu-index {
+    position: absolute;
+    margin-left: 900px;
+    width: auto;
+    height: auto;
+
+}
+
+.gerarbu {
+    background-color: #ff8e26;
+    border-radius: 7px;
+    padding: 3%;
+    border: #ff8e26;
+    color: #002352;
+    font-weight: bold;
+
+}
+
+.circulo {
+    position: fixed;
+    top: 50%;
+    margin-right: -10%;
+    z-index: -1;
+    opacity: 50%;
+}
+
+.circulo1 {
+    position: fixed;
+    z-index: -1;
+    opacity: 50%;
+}
+
+.menu-relatorio,
+.menu-recarga,
+.menu-gerarbilhete,
+.menu-utilizacao {
+    background-color: #ff8e26;
+    color: white;
+    padding: 40px 100px;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.menu-relatorio,
+.menu-recarga,
+.menu-utilizacao{
+    margin-top: 10px;
+}
+
+.termodeaceite {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    text-align: justify;
+}
+
+.link-termo {
+    background-color: #ff8e26;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.area-codigobilhete {
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 10px 20px;
+}
+
+/*recarga*/
+
+
+
+.input-recargas {
+
+    width: 50%;
+    height: 100px;
+    border-radius: 8px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.recargas {
+
+    color: #002352;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.unico,
+.duplo,
+.semanal,
+.mensal {
+
+    background-color: white;
+    width: 230px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.botao-recarga {
+
+    background-color: #ff8e26;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 8px;
+    border-color: #ff8e26;
+
+    cursor: pointer;
+
+}
+/*Utilização*/
+
+.utilizacao {
+
+    padding: auto;
+    border-radius: 8px;
+    
+    
+    
+}
+
+.txt-bilhete
+ {
+    width: 400px;
+    height: 70px;
+    border-radius: 8px;
+    font-size: 30px;
+    display: block;
+}
+
+.btnUtilizacao {
+    background-color: #ff8e26;
+    padding: 10px;
+    border: #ff8e26;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #002352;
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+.btnUtilizacao,
+.txt-bilhete
+{
+    margin: 10px;
+}
+p.oculto
+{
+    display: none;
+}
